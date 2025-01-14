@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { VideoEntity } from '../entities/videos.entity';
+import { VideoEntity } from './entities/videos.entity';
 import axios from 'axios';
 
 @Injectable()
