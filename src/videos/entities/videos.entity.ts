@@ -11,6 +11,9 @@ export class VideoEntity {
     channelUrl: string;
 
     @Expose()
+    channelImage: string;
+
+    @Expose()
     viewCount: string;
 
     @Expose()
